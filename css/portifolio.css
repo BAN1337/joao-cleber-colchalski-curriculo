@@ -1,0 +1,109 @@
+body, head, html, a, div, p{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    padding: 10px;
+    margin: 0;
+    justify-content: center;
+    background-color: #A9A9A9;
+    height: 50px;
+    width: 100vw;
+}
+
+.section-left-nav{
+    display: flex;
+    flex: 1;
+}
+
+.section-mid-nav{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.button-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 25px;
+    color: #A9A9A9;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 0px;
+    width: 95px;
+    font-size: 16px;
+    background-color: #4F4F4F;
+    box-sizing: border-box;
+}
+
+.button-nav:hover{
+    background-color: #A9A9A9;
+    border: 3px solid #4F4F4F;
+    color: #4F4F4F;
+    font-weight: bold;
+}
+
+.button-nav#button_portifolio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 25px;
+    color: #4F4F4F;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 3px solid #4F4F4F;
+    width: 95px;
+    font-size: 16px;
+    background-color: #A9A9A9;
+    font-weight: bold;
+}
+
+.sep-button{
+    width: 0.5vw;
+}
+
+.section-right-nav{
+    display: flex;
+    flex: 1;
+    justify-content: right;
+}
+
+.section-body{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+    height: 100vh;
+    width: 100vw;
+    background-color: #4F4F4F;
+    color: #A9A9A9;
+    font-size: 5vh;
+}
+
+.titulo-div{
+    padding: 10px;
+    border-radius: 25px;
+    color: #4F4F4F;
+    background-color: #A9A9A9;
+    font-weight: bold;
+}
+
+.lista-div{
+    padding: 0px 25px;
+    font-size: 4.5vh;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.link-lista-div{
+    color: #A9A9A9;
+    font-weight: bold;
+}
+
+.sep-li{
+    height: 5vh;
+}
