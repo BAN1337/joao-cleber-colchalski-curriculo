@@ -126,7 +126,7 @@ body, head, html, a, div, p{
 }
 
 #input-section-form-contato-name:focus{
-    outline:0;
+    outline:0; /*Tira o borda quando clica no input*/
 }
 
 #input-section-form-contato-email{

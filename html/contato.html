@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/contato.css"></script>
     <title>Contato</title>
-    <script src="../js/contato.js"></script>
+    <script src="../js/contato.js"></script> <!-- Titulo da página --> 
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <section class="section-left-nav">
+        <nav class="navbar"> <!-- Cabeçalho da página onde fica o menu --> 
+            <section class="section-left-nav"> <!-- Sessão a esquerda do cabeçalho --> 
                 <a id="button_inicio" class="button-nav" href="../index.html">Início</a>
             </section>
-            <section class="section-mid-nav">
+            <section class="section-mid-nav"> <!-- Sessão no meio do cabeçalho --> 
                 <a id="button_sobre_mim" class="button-nav" href="./sobre_mim.html">Sobre Mim</a>
                 <div class="sep-button"></div>
                 <a id="button_formacao" class="button-nav" href="./formacao.html">Formação</a>
@@ -22,7 +22,7 @@
                 <div class="sep-button"></div>
                 <a id="button_contato" class="button-nav" href="./contato.html">Contato</a>
             </section>
-            <section class="section-right-nav"></section>
+            <section class="section-right-nav"></section> <!-- Sessão a direita do cabeçalho --> 
         </nav>
     </header>
     <section class="section-body">
@@ -30,22 +30,22 @@
             Contato:
         </div>
     </section>
-    <section class="section-form-contato">
-        <form onsubmit="save()">
+    <section class="section-form-contato"> <!-- Sessão onde fica o formulário para preencher --> 
+        <form onsubmit="save()"> <!-- Quando o formulário for submetido, será executado a função save, que está no arquivo contato.js --> 
             <p class="p-section-form-contato">
                 <label for="input-section-form-contato-name" class="label-section-form-contato" >Nome:</label>
-                <input id="input-section-form-contato-name" type="name" name="name" placeholder="Digite seu nome"/>
+                <input id="input-section-form-contato-name" type="name" name="name" placeholder="Digite seu nome"/> <!-- Input para o usuário preencher com o nome --> 
             </p>
             <p class="p-section-form-contato">
                 <label for="input-section-form-contato-email" class="label-section-form-contato">Email:</label>
-                <input id="input-section-form-contato-email" type="email" name="email" placeholder="Digite seu e-mail"/>
+                <input id="input-section-form-contato-email" type="email" name="email" placeholder="Digite seu e-mail"/> <!-- Input para o usuário preencher com o email --> 
             </p>
             <p class="p-section-form-contato">
                 <label for="textarea-section-form-contato-mensagem" class="label-section-form-contato">Mensagem:</label>
-                <textarea id="textarea-section-form-contato-mensagem" type="text" name="mensagem" placeholder="Digite uma mensagem"></textarea>
+                <textarea id="textarea-section-form-contato-mensagem" type="text" name="mensagem" placeholder="Digite uma mensagem"></textarea> <!-- Área para o usuário preencher com a mensagem que deseja enviar --> 
             </p>
 
-            <button id="button-section-form-contato-mensagem" type="submit">Enviar</button>
+            <button id="button-section-form-contato-mensagem" type="submit">Enviar</button> <!-- Botão para submeter o formulário --> 
         </form>
     </section>
 </body>
